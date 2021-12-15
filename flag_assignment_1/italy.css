@@ -1,0 +1,25 @@
+#container{
+    width: max-content;
+    height: max-content;
+}
+
+.green{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+
+}
+.white{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+
+}
+.red{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+div{
+    float: left;
+}
