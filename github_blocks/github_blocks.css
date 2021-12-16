@@ -1,0 +1,49 @@
+h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#main_block{
+    width: 100%;
+    background-color:blanchedalmond ;
+    display: inline-block;
+    justify-content: center;
+}
+
+.first_row{
+    height: 250px;
+    background-color: rgb(95, 158, 160);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.second_row{
+    height: 250px;
+    background-color: rgba(87, 178, 34, 0.952);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.third_row{
+    height: 250px;
+    background-color: rgb(160, 95, 95);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+p{
+    text-align: center;
+}
