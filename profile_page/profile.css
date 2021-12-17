@@ -1,0 +1,191 @@
+*{
+   margin: 0;
+   padding: 0; 
+   font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+#navbar{
+    width: inherit;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    height: 85px;
+    
+}
+
+#navbar >h1{
+    margin-left: 200px;
+    color: white;
+    vertical-align: middle;
+}
+
+.nav_links >li{
+    color: white;
+    display: inline;
+    margin-left: 35px;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+#navbar >button{
+    background-color: darkcyan;
+    color: white;
+    margin-left: 450px;
+    padding: 5px 15px;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+} 
+
+/* .left_contents{
+    flex:2;
+}
+
+.right_contents{
+    flex:1;
+} */
+
+/* .right_contents
+} */
+
+#contents_container{
+    margin-top: 20px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* USER CARD */
+#user_card{
+    width: 650px;
+    height: 325px;
+    position: relative;
+    display: flex;
+    border: solid gray 5px;
+    flex-direction: column;
+}
+
+.user_img{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top : 160px;
+    left : 245px;
+    border: gray solid ;
+    border-radius: 45px;
+    padding: 4px;
+    background-color: white;
+}
+
+#user_img{
+    width: inherit;
+    height: 100px;
+    background-color: teal;
+}
+
+#contents{
+    width: 600px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 160px;
+}
+
+.map_maker_image{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.map_maker{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    padding: 5px;
+}
+
+.gear >img,
+.gear >p{
+    font-size: 15px;
+    font-weight: 300;
+    color: blue;
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.gear_img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
+
+/* connection requests */
+
+.connection_requests{
+    margin-left: 25px;
+    border: grey solid 5px;
+}
+.request_heading >p{
+    font-size: 25px;
+    width: 300px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+}
+.request_heading >p >span{
+    height: 80px;
+    width: 80px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    padding: 10px ;
+}
+.request_details >img, .request_details>p{
+    display: inline;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+.request_details >img{
+    height: 25px;
+    width: 25px;
+}
+
+.your_connections{
+    margin-left: 25px;
+    border: grey solid 5px;
+    margin-top: 35px;
+    vertical-align: middle;
+}
+
+.connections_heading >p{
+    font-size: 25px;
+    width: 300px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+}
+.connections_heading >p >span{
+    height: 80px;
+    width: 80px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    padding: 10px ;
+}
+.connections_details >img, .connections_details>p{
+    display: inline;
+    vertical-align: middle;
+    padding: 10px;
+}
+.connections_details >img{
+    height: 25px;
+    width: 25px;
+}
