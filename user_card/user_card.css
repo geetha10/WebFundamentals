@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main_container{
+    width: 625px;
+    height: 325px;
+    position: relative;
+    display: flex;
+    border: solid gray 5px;
+    flex-direction: column;
+}
+
+.user_img{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top : 60px;
+    left : 25px;
+    border: gray solid ;
+    border-radius: 45px;
+    padding: 4px;
+    background-color: white;
+}
+
+#nav_bar{
+    width: inherit;
+    height: 100px;
+    background-color: teal;
+}
+
+#contents{
+    width: 600px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 160px;
+}
+
+.map_maker_image{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.map_maker{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    padding: 5px;
+}
+
+.gear{
+    font-size: 15px;
+    font-weight: 300;
+    color: blue;
+    text-decoration: underline;
+    padding: 2px;
+}
+
+.gear_img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    margin-right: 5px;
+}
