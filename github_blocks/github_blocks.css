@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     font-weight: bolder;
     text-align: center;
@@ -11,22 +15,22 @@ img{
 }
 
 #main_block{
-    width: 100%;
+    width: 1200px;
     background-color:blanchedalmond ;
-    display: inline-block;
-    justify-content: center;
 }
 
-.first_row{
+.top_row{
     height: 250px;
     background-color: rgb(95, 158, 160);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.second_row{
+.middle_row{
     height: 250px;
     background-color: rgba(87, 178, 34, 0.952);
     display: flex;
@@ -35,13 +39,15 @@ img{
     margin: 20px;
 }
 
-.third_row{
+.bottom_row{
     height: 250px;
     background-color: rgb(160, 95, 95);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 p{
