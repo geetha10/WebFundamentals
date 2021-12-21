@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar">
+        <p class="logo">Dojonary</p>
+        <input class="search_bar" type="text" placeholder=" Search">
+        <button class="login" onclick="loginBtnClick(this)">Login</button>
+    </div>
+    <div id="contents_container">
+        <div id="left_container">
+            <div class="meaning_card">
+                <div class="about_word">
+                    <p class="word"> ninja</p>
+                    <p class="part_of_speech">noun</p>
+                    <p class="plural">Plural: <span>ninjas</span></p>
+                    <button class="like_btn" onclick="alert('ninja was liked')">13 Likes</button>
+                </div>
+                <div class="word_meaning">
+                    <p> A practitioner skilled in the <span>Japanese</span> if <span>ninjutsu</span></p>
+                </div>
+            </div>
+            <div class="meaning_card">
+                <div class="about_word">
+                    <p class="word"> ninja</p>
+                    <p class="part_of_speech">noun</p>
+                    <p class="plural">Plural: <span>ninjas</span></p>
+                    <button class="like_btn" onclick="alert('ninja was liked')">300 Likes</button>
+                </div>
+                <div class="word_meaning">
+                    <p> A <span>programmer</span> who breaks down problem with <span>zen</span>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div id="right_container">
+            <div class="defined_by">
+                <p>Dojonory is defined by you</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

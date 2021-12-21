@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* NAVBAR */
+
+#navbar{
+    width: 800px;
+    margin: 0 auto;
+    background-color: grey;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.login{
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+.search_bar{
+    width: 300px;
+    padding: 10px 0px;
+}
+
+/* CONTENTS CONTAINER */
+#contents_container{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* LEFT CONTAINER */
+#left_container{
+    flex :2;
+    padding: 20px 0;
+} 
+
+.meaning_card{
+    border: black solid ;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+.about_word{
+    width: 150px;
+    vertical-align: middle;
+}
+.word{
+    font-size: 25px;
+    font-weight: bold;
+}
+.part_of_speech{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.plural{
+    display: inline;
+}
+
+.plural >span{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.like_btn{
+    background-color: yellowgreen;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.word_meaning{
+    text-align: center;
+    position: relative;
+    height: inherit;
+    top: 40px;
+    padding-right: 10px;
+}
+
+.word_meaning >p >span{
+    text-decoration: underline;
+    color: blue;
+}
+
+/*RIGHT CONTAINER */
+#right_container{
+    flex: 1;
+    padding: 20px 0;
+}
+
+.defined_by{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px 0;
+    border: black solid ;
+    vertical-align: middle;
+    text-align: center;
+}
