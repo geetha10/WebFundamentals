@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+#activity_card{
+    /* display: flex; */
+    border: black solid;
+    margin: 20px;
+    width: 500px;
+}
+
+/* .activity_card_heading{
+    align-items: center;
+    justify-content: space-between; 
+} */
+
+
+.activity_card_heading > p,
+.activity_card_heading >button{
+    display: inline;
+    margin: 30px 10px;
+    padding: 0 20px;
+    
+}
+
+.activity_card_heading >button{
+    background-color: #f6d162;
+    border: black solid;
+    text-align: right;
+    margin-left: 50px;
+}
+
+.activity_details{
+    width: fit-content;
+    margin: 10px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.user_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
