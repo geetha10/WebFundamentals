@@ -1,8 +1,11 @@
-count=0
+
 console.log("JS connected")
-function likesCounter(element){
-    count += 1;
-    var likes=document.querySelector(".no_of_likes");
-    console.log(likes)
-    likes.innerText = count +" Like(s)"
+var like_count=[0,0,0]
+var users=[document.querySelector(".activity_card-1"),
+document.querySelector(".activity_card-2"),
+document.querySelector(".activity_card-3")
+]
+console.log(users);
+function likesCounter(user){
+  console.log(user)
 }

@@ -1,34 +1,81 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Arial, sans-serif;
 }
-#activity_card{
-    /* display: flex; */
+
+/* HEADING */
+h1{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+/* CONTAINER */
+.container{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* LEFT CONTAINER */
+#left_container{
+    flex: 1;
+}
+
+.user_card{
     border: black solid;
     margin: 20px;
-    width: 500px;
+    text-align: center;
 }
 
-/* .activity_card_heading{
-    align-items: center;
-    justify-content: space-between; 
-} */
+.user_card >p{
+    padding: 10px;
+}
 
+.user_card .user_name{
+    font-size: 25px;
+}
 
-.activity_card_heading > p,
-.activity_card_heading >button{
-    display: inline;
+.user_card > img{
+    height: 100px;
+    margin: 20px;
+}
+/* RIGHT CONTAINER */
+#right_container{
+    flex:2
+}
+.activity_card-1{
+    border: black solid;
+    margin: 20px;
+}
+.activity_card-2{
+    border: black solid;
+    margin: 20px;
+}
+.activity_card-3{
+    border: black solid;
+    margin: 20px;
+}
+
+.activity_card_heading > .user_name,
+.activity_card_heading > .no_of_likes{
+    display: inline-flex;
+    /* justify-content: space-evenly; */
     margin: 30px 10px;
     padding: 0 20px;
-    
+    text-align: center;
+    vertical-align: middle;
 }
 
-.activity_card_heading >button{
+.no_of_likes >button{
+    padding: 0 20px;
     background-color: #f6d162;
     border: black solid;
     text-align: right;
     margin-left: 50px;
+    
 }
 
 .activity_details{
@@ -39,7 +86,7 @@
     text-align: center;
 }
 
-.user_name{
+.activity_card_heading > .user_name{
     font-size: 25px;
     font-weight: bold;
 }
