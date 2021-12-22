@@ -8,12 +8,13 @@
     <title>Likes</title>
 </head>
 <body>
-    <h1>Network</h1>
+    <h1 class="main_heading">Network</h1>
+    <h1 class="your_feed">Your Feed</h1>
     <div class="container">
         <div id="left_container">
             <div class="user_card">
                 <img src="images/user-circle.png">
-                <p>Add an avatar</p>
+                <p><a href="#">Add an avatar</a></p>
                 <p class="user_name">Geetha Medisetty</p>
             </div>
         </div>
@@ -21,23 +22,32 @@
             <div class="activity_card-1">
                 <div class="activity_card_heading">
                     <p class="user_name">Neil M</p>
-                    <p class="no_of_likes"><span>0 Like(s) </span><button class="like_button" onclick="likesCounter(this)"> Like</button> </p>
+                    <p class="no_of_likes">
+                        <span id="post_1">0 Like(s) </span>
+                        <button class="like_button" onclick="likesCounter(0)"> Like</button> 
+                    </p>
                 </div>
                 <p class="activity_details">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
             </div>
             <div class="activity_card-2">
                 <div class="activity_card_heading">
                     <p class="user_name">Nichole K</p>
-                    <p class="no_of_likes"><span>0 Like(s) </span><button class="like_button" onclick="likesCounter(this)"> Like</button> </p>
+                    <p class="no_of_likes">
+                        <span id="post_2">0 Like(s) </span>
+                        <button class="like_button" onclick="likesCounter(1)"> Like</button> 
+                    </p>
                 </div>
                 <p class="activity_details">Just finished my <a href="#">next comic</a>, check it out</p>
             </div>
             <div class="activity_card-3">
                 <div class="activity_card_heading">
                     <p class="user_name">Jim R</p>
-                    <p class="no_of_likes"><span>0 Like(s) </span><button class="like_button" onclick="likesCounter(this)"> Like</button> </p>
+                    <p class="no_of_likes">
+                        <span id="post_3">0 Like(s) </span>
+                        <button class="like_button" onclick="likesCounter(2)"> Like</button> 
+                    </p>
                 </div>
-                <p class="activity_details">I can't stop listening to the <a href="#">new album</a>. Who else is liking it</p>
+                <p class="activity_details">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
             </div>
         </div>
     </div>

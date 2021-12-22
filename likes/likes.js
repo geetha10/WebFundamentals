@@ -1,11 +1,13 @@
 
 console.log("JS connected")
 var like_count=[0,0,0]
-var users=[document.querySelector(".activity_card-1"),
-document.querySelector(".activity_card-2"),
-document.querySelector(".activity_card-3")
+var users=[document.querySelector("#post_1"),
+document.querySelector("#post_2"),
+document.querySelector("#post_3")
 ]
-console.log(users);
-function likesCounter(user){
-  console.log(user)
+
+function likesCounter(id){
+    console.log("Inside onclick")
+    like_count[id]++;
+    users[id].innerHTML = like_count[id]+" like(s)"
 }

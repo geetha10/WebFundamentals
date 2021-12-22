@@ -5,12 +5,16 @@
 }
 
 /* HEADING */
-h1{
+.main_heading{
     width: 1080px;
     margin: 0 auto;
     background-color: black;
     color: white;
     padding: 10px;
+}
+.your_feed{
+    text-align: center;
+    margin: 20px;
 }
 /* CONTAINER */
 .container{
@@ -58,11 +62,13 @@ h1{
     border: black solid;
     margin: 20px;
 }
-
+.activity_card_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .activity_card_heading > .user_name,
 .activity_card_heading > .no_of_likes{
-    display: inline-flex;
-    /* justify-content: space-evenly; */
     margin: 30px 10px;
     padding: 0 20px;
     text-align: center;
