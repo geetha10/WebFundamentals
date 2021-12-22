@@ -16,7 +16,7 @@
                     <li>Home</li>
                     <li>My Profile</li>
                     <li>Find Connections</li>
-                    <li class="sign_out_btn">Sign Out</li>
+                    <li class="sign_out_btn" onclick="sign_out(this)">Sign In</li>
                 </ul>
             </div>
         </div>
@@ -27,7 +27,7 @@
                         <img class="user_img" src="images/my_pic.jpeg" alt="Problem loading user img">
                     </div>
                     <div id="contents">
-                        <h1>Geethanjali Medisetty</h1>
+                        <h1 id="user_name">Geethanjali Medisetty</h1>
                         <p class="map_maker">
                             <img class="map_maker_image" src="icons/map-marker.png" alt="mapper_image"> Sunnyvale
                         </p>
@@ -35,7 +35,7 @@
                         <p>Master of shadows and the Internet</p>
                         <div class="gear">
                             <img class="gear_img" src="icons/gear.png" alt="gear">
-                            <p>edit profile</p>
+                            <p onclick="editProfile()">edit profile</p>
                         </pdiv>
                     </div>
                 </div>
@@ -59,25 +59,25 @@
             <div class="right_contents">
                 <div class="connection_requests">
                     <div class="request_heading">
-                        <p> <span>15</span> Connection Requests</p>
+                        <p> <span class="no_of_requests">15</span> Connection Requests</p>
                     </div>
-                    <div class="request_details">
+                    <div class="request_details req1">
                         <img class="req_img" src="images/todd-s.jpg">
                         <p>Todd E</p>
-                        <img class="accpet_close" src="icons/accept-circle.png">
-                        <img class="accpet_close" src="icons/close-circle.png">
+                        <img class="accpet_close" onclick='reqAccepted(".req1")'src="icons/accept-circle.png">
+                        <img class="accpet_close" onclick='reqDeclined(".req1")' src="icons/close-circle.png">
                     </div>
-                    <div class="request_details">
+                    <div class="request_details req2">
                         <img  class="req_img" src="images/phil-s.jpg">
                         <p>Phill K</p>
-                        <img class="accpet_close" src="icons/accept-circle.png">
-                        <img class="accpet_close" src="icons/close-circle.png">
+                        <img class="accpet_close" onclick='reqAccepted(".req2")' src="icons/accept-circle.png">
+                        <img class="accpet_close" onclick='reqDeclined(".req2")' src="icons/close-circle.png">
                     </div>
                 </div>
 
                 <div class="your_connections">
                     <div class="connections_heading">
-                        <p><span>150</span> Your Connections</p>
+                        <p><span class="no_of_connections">10</span> Your Connections</p>
                     </div>
                     <div class="connections_details">
                         <img src="images/adrien-s.jpg">
@@ -102,5 +102,6 @@
             </div>
         </div>
     </div>
+    <script src="profile.js"></script>
 </body>
 </html>
